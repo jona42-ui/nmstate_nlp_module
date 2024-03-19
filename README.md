@@ -4,7 +4,8 @@ https://github.com/nmstate/nmstate/issues/2583
 This small module basically demonstrates the power of NLP in network configuration I.e
 Our demo project aims to develop a natural language interface that allows users to create Linux bridge configurations using simple, human-readable commands. The interface will leverage natural language processing (NLP) techniques to parse user input and generate YAML configurations compatible with nmstate, a declarative API for host network management in Linux.
 
-[Screencast from 03-19-2024 11:27:42 AM.webm](https://github.com/jona42-ui/nmstate_nlp_module/assets/78595738/8385bbee-4805-4523-9439-231baab13323)
+[nlpdemo.webm](https://github.com/jona42-ui/nmstate_nlp_module/assets/78595738/ba6fac02-8bca-4466-88aa-cdf16c2dd3ab)
+
 
 Currently, it's only extracting the interface name (eth1) from the natural language input and generating a configuration entry for it, but it's missing the bridge name (br0) and the second interface (eth2).
 
